@@ -1,4 +1,4 @@
-# Welcome to Enthusy Bot repo!
+# Welcome to Enthusy Bot!
 Enthusy Bot is a discord server bot used to generate random jokes as well as create your own jokes to be shared with anyone using Enthusy Bot!
 Add Enthusy Bot now! [Click here](https://discord.com/api/oauth2/authorize?client_id=823999272546205706&permissions=519232&scope=bot) to add Enthusy to your discord server!
 
