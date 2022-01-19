@@ -12,3 +12,4 @@ Enthusy Bot uses [Repl.it HTTP hosting server](https://docs.replit.com/hosting/d
 
 The [UptimeRobot](https://uptimerobot.com) monitoring service was used to upkeep Enthusy Bot by pinging the bot in the background every 5 minutes to stay awake and active consistently.
 
+Designed and developed by Thomas Sobczak
