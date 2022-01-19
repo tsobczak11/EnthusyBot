@@ -60,9 +60,10 @@ async def on_message(message):
   if message.author == client.user:
     return
   if message.content.startswith('!help'):
-        embedVar = discord.Embed(title="Hello and welcome to the EnthusyBot help menu", description="Below you will find all available commands to use with EnthusyBot!", color=0x87CEEB)
+        embedVar = discord.Embed(title="Welcome to the Enthusy Bot help menu", description="Below you will find all available commands to use with Enthusy Bot!", color=0x87CEEB)
         embedVar.add_field(name="!joke", value="This command will generate a random joke.", inline=False)
         embedVar.add_field(name="!new", value="This command followed by a space and a text input will allow you to add your own personal jokes to be used by everyone.", inline=False)
+        embedVar.add_field(name="!pjoke", value="This command will generate a random personal joke created by you!", inline=False)
         embedVar.add_field(name="!list", value="This command allows you to view the list of jokes added by users.", inline=False)
         embedVar.add_field(name="!delete", value="This command followed by a space and a number allows you to delete a joke at that number index in the list of jokes.", inline=False)
         await message.channel.send(embed=embedVar)
