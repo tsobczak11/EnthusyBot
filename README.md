@@ -1,3 +1,5 @@
+#Welcome to Enthusy Bot
+
 Link to add Enthusy Bot to server:
   https://discord.com/api/oauth2/authorize?client_id=823999272546205706&permissions=519232&scope=bot
 
