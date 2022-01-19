@@ -52,6 +52,11 @@ def delete_joke(index):
     db["joke"] = joke
 
 @client.event
+async def on_guild_join(guild):
+    embed=discord.Embed(title=f"Thanks for adding me to {guild.name}", description="Type !help to get started!", color=0x87CEEB)
+    await guild.text_channels[0].send(embed=embed)
+
+@client.event
 async def on_ready():
   print('We have logged in as {0.user}'.format(client))
 
