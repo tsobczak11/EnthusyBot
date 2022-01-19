@@ -94,9 +94,11 @@ async def on_message(message):
     joke = []
     if "joke" in db.keys():
       index = int(message.content.split("!delete",1)[1])
-      delete_joke(index)
       joke = db["joke"]
-    await message.channel.send(joke)
+      old_joke = joke[index]
+      delete_joke(index)
+      result = "Congrats you deleted the joke '" + old_joke + "'"
+    await message.channel.send(result)
 
   #display list of jokes
   if message.content.startswith('!list'):
