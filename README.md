@@ -1,19 +1,14 @@
-# Welcome to Enthusy Bot!
-This discord bot was built using [Discord.py](https://discordpy.readthedocs.io/en/stable/intro.html).
+# Welcome to Enthusy Bot repo!
+Enthusy Bot is a discord server bot used to generate random jokes as well as create your own jokes to be shared with anyone using Enthusy Bot!
+Add Enthusy Bot now! [Click here](https://discord.com/api/oauth2/authorize?client_id=823999272546205706&permissions=519232&scope=bot) to add Enthusy to your discord server!
 
-Link to add Enthusy Bot to server:
-  https://discord.com/api/oauth2/authorize?client_id=823999272546205706&permissions=519232&scope=bot
+## Resources used to develop and deploy Enthusy Bot
 
-Website to generate a joke:
-  https://holypython.com/official-jokes-api/
+Enthusy Bot was built using [Discord.py](https://discordpy.readthedocs.io/en/stable/intro.html).
 
-Second website to generate a joke:
-  https://sv443.net/jokeapi/v2/
-  URL: https://v2.jokeapi.dev/joke/Any?blacklistFlags=nsfw,racist,sexist,explicit
-  Using the above URL makes sure you don't get any jokes that are not safe for work, racist and sexist and that doesn't contain explicit language (swear words, etc.).
+[JokeAPI](https://sv443.net/jokeapi/v2/) was used to generate random jokes.
 
-Replit hosting http server:
-  https://docs.replit.com/hosting/deploying-http-servers
+Enthusy Bot uses [Repl.it HTTP hosting server](https://docs.replit.com/hosting/deploying-http-servers) to host the bot on the server that will stay awake and active until an hour after its last request.
 
-UptimeRobot to wake up the http server every 5 min:
-  https://uptimerobot.com
+The [UptimeRobot](https://uptimerobot.com) monitoring service was used to upkeep Enthusy Bot by pinging the bot in the background every 5 minutes to stay awake and active consistently.
+
